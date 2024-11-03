@@ -300,7 +300,8 @@ const VideoGallery = () => {
     <div className="container my-5">
       <div className="container">
         <header className="text-center mb-5">
-          <h3 className="display-4">Contrôle pratique programmation Web JavaEE (Spring Boot, Spring Data, Spring MVC, Thymeleaf)</h3>
+          <h3 className="display-4">Contrôle pratique programmation Web JavaEE </h3>
+          <h4 className="text-muted">(Spring Boot, Spring Data, Spring MVC, Thymeleaf)</h4>
           <h4 className="text-muted">ISIC ENSA EL JADIDA</h4>
           <h5 className="text-secondary">Pr. Mohamed LACHGAR</h5>
           <p style={{ color: "red" }}>
