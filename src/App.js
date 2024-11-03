@@ -9,262 +9,262 @@ import { Modal, Button } from 'react-bootstrap';
 const projects = [
   {
       "number": 1,
-      "title": "Interface graphique",
-      "developer": "Ait Ouahda Younes",
+      "title": "Projet 1 : Gestion des Réservations de Salles de Réunion",
+      "developer": "Abderrazak kawtar",
       "videoUrl": "/videos/video1.mp4",
-      "githubUrl": "https://github.com/YounesAO/Android-kotlin-project-TP1"
+      "gitHubUrl": "https://github.com/kawtarabderrazak/projet-controle.git"
   },
   {
       "number": 2,
-      "title": "Pizza",
-      "developer": "Amerga Younes",
+      "title": "Projet 2: Système de Gestion des Projets",
+      "developer": "ABOUSSALIM OUSSAMA",
       "videoUrl": "/videos/video2.mp4",
-      "githubUrl": "https://github.com/Younessamg/pizza_mobile.git"
+      "gitHubUrl": "https://github.com/ABOUSSALIM/ControleGSP.git"
   },
   {
       "number": 3,
-      "title": "TabHost",
-      "developer": "Anejjar Ihssane",
+      "title": "Projet 3:catalogue de produits et gestion des commandes",
+      "developer": "aheddach chaymae",
       "videoUrl": "/videos/video3.mp4",
-      "githubUrl": "https://github.com/Anejjar24/Gestion-taches"
+      "gitHubUrl": "https://github.com/Aheddach/projet_controle"
   },
   {
       "number": 4,
-      "title": "RecyclerView",
-      "developer": "AZIZ Mohammed",
+      "title": "Projet 4 :Application de Gestion des Livres et Auteurs",
+      "developer": "Ahrardi Wiam",
       "videoUrl": "/videos/video4.mp4",
-      "githubUrl": "https://github.com/aziz-laravel/Projet4"
+      "gitHubUrl": "https://github.com/AhrardiWiam/Projet_GestionDesBibliotheques"
   },
   {
       "number": 5,
-      "title": "Volley + Image",
-      "developer": "Ballouk Mohamed",
+      "title": "Projet 5 :  Système de Gestion des Étudiants et des Cours",
+      "developer": "Ait Himmi Aya",
       "videoUrl": "/videos/video5.mp4",
-      "githubUrl": "https://github.com/Ballouk12/projet5.git"
+      "gitHubUrl": "https://github.com/aya-cyber/Controlle_Spring_Mvc.git"
   },
   {
       "number": 6,
-      "title": "Localisation",
-      "developer": "BEESAM Adam",
+      "title": "Projet 6 : Système de Gestion des Véhicules et des Conducteurs",
+      "developer": "AIT MOH Youness",
       "videoUrl": "/videos/video6.mp4",
-      "githubUrl": "https://github.com/AdamBessam/Controle-Mobile"
+      "gitHubUrl": "https://github.com/AIT-MOH-Youness/ControleSpringGestionVC.git"
   },
   {
       "number": 7,
-      "title": "Map + Volley",
-      "developer": "BOKTAYA Amine",
+      "title": "Projet 7 : Gestion des Employés et des Départements",
+      "developer": "ait zaim samira",
       "videoUrl": "/videos/video7.mp4",
-      "githubUrl": "https://github.com/BoktayaAmine/dev_mobile_projects/tree/master/Google_Maps_App"
+      "gitHubUrl": "https://github.com/SAMIRA-AIT-ZAIM/Gestion-des-Employes-et-des-Departements.git"
   },
   {
       "number": 8,
-      "title": "SQLite",
-      "developer": "BOUJNAH AsSia",
+      "title": "Projet 8 : Application de Gestion des Factures et des Clients",
+      "developer": "Alioui Jaâfar",
       "videoUrl": "/videos/video8.mp4",
-      "githubUrl": "https://github.com/assia1905/TPSQLite"
+      "gitHubUrl": "https://github.com/Jaafarhh/Controle-JEE"
   },
   {
       "number": 9,
-      "title": "Fragment",
-      "developer": "BOUKHRAIS Meryem",
+      "title": "projet 9 : Système de Gestion des Événements et des Participants",
+      "developer": "Azizi hafsa",
       "videoUrl": "/videos/video9.mp4",
-      "githubUrl": "https://github.com/Bou-Mery/MyNewsApp"
+      "gitHubUrl": "https://github.com/HafsaAzizi/control.git"
   },
   {
       "number": 10,
-      "title": "Navigation Drawer",
-      "developer": "Bouleknadel Abderrahmane",
+      "title": "projet 10 : Système de Gestion des Produits et des Fournisseurs",
+      "developer": "Bamhmmed Hafssa",
       "videoUrl": "/videos/video10.mp4",
-      "githubUrl": "https://github.com/bouleknadel/LibraryApp.git"
+      "gitHubUrl": "https://github.com/hafssa371/controle"
   },
   {
       "number": 11,
-      "title": "Notifications",
-      "developer": "BOUSENSAR Rajaa",
+      "title": "Projet 11 : Système de Gestion des Articles et des Catégories",
+      "developer": "Belhaddad Rayan",
       "videoUrl": "/videos/video11.mp4",
-      "githubUrl": "https://github.com/rajaa52/depot1.git"
+      "gitHubUrl": "https://github.com/RayanBelh/Gestion-articles-Projet-Thymlea.git"
   },
   {
       "number": 12,
-      "title": "Capteurs",
-      "developer": "CHAJARI Salma",
+      "title": "Projet 12 : Système de Gestion des Films et des Réalisateurs",
+      "developer": "Achouak Bougrine",
       "videoUrl": "/videos/video12.mp4",
-      "githubUrl": "https://github.com/Salma-CHAJARI/SensorsProject.git"
+      "gitHubUrl": "https://github.com/AchouakBougrine/Gestion-des-Films-et-des-R-alisateurs.git"
   },
   {
       "number": 13,
-      "title": "Retrofit",
-      "developer": "CHOUAY Walid",
+      "title": "Projet 13: Gestion des commandes et des clients",
+      "developer": "Chaiabi Salma",
       "videoUrl": "/videos/video13.mp4",
-      "githubUrl": "https://github.com/CHOUAY15/EnsaHealth"
+      "gitHubUrl": "https://github.com/ChaiabiSalma/Gestion-des-commandes-et-des-clients.git"
   },
   {
       "number": 14,
-      "title": "Room",
-      "developer": "DAOUDI Mohammed",
+      "title": "Projet 14: Gestion des Candidatures et des Offres d'Emploi",
+      "developer": "EL-AGRI MANAL",
       "videoUrl": "/videos/video14.mp4",
-      "githubUrl": "https://github.com/Mohammedaoudi/ENSAJ-APP-Management"
+      "gitHubUrl": "https://github.com/Manal-Elagri/Gestion-des-Candidatures-et-des-Offres-d-Emploi.git"
   },
   {
       "number": 15,
-      "title": "TabLayout + ViewPager/Fragment",
-      "developer": "DOUIDY Sifeddine",
+      "title": "Projet15:Systeme de Gestion des Locations et des Biens Immobiliers",
+      "developer": "El-kak Basma",
       "videoUrl": "/videos/video15.mp4",
-      "githubUrl": "https://github.com/SaifeddineDouidy/Beginner-Projects-Mobile-JAVA/tree/master/Projet_Controle"
+      "gitHubUrl": "https://github.com/Basmaelkak/Control"
   },
   {
       "number": 16,
-      "title": "LiveData + ViewModel",
-      "developer": "DRIHAM Siham",
+      "title": "Projet 16:Système de Gestion des Assurances et des Contrats",
+      "developer": "Elmaizi ihssane",
       "videoUrl": "/videos/video16.mp4",
-      "githubUrl": "https://github.com/SihamDriham/TodoList"
+      "gitHubUrl": "https://github.com/Ihssanf/insurancef"
   },
   {
       "number": 17,
-      "title": "Data Binding",
-      "developer": "EL ABIDI Aya",
+      "title": "projet 17:Gestion des restaurants et des menus",
+      "developer": "Ennahir hind",
       "videoUrl": "/videos/video17.mp4",
-      "githubUrl": "https://github.com/yaelaya/TP-Visit_Paris.git"
+      "gitHubUrl": "https://github.com/HindEnnahir/controle.git"
   },
   {
       "number": 18,
-      "title": "Firebase",
-      "developer": "EL GHARBI ABDELLAH",
+      "title": "projet 18: Gestion des livraisons et des transporteurs",
+      "developer": "Errokbi oumaima",
       "videoUrl": "/videos/video18.mp4",
-      "githubUrl": "https://github.com/abdellah-elgharbi/chat.git"
+      "gitHubUrl": "https://github.com/errokbioum/Contr-le-"
   },
   {
       "number": 19,
-      "title": "Coroutines",
-      "developer": "EL MAHJOUBI Soukaina",
+      "title": "Projet 19 :Gestion-des-Locations-de-Voitures-et-des-Clients",
+      "developer": "Ilham Ettouil",
       "videoUrl": "/videos/video19.mp4",
-      "githubUrl": "https://github.com/elmahjoubisouka/Mini_projet_application_Quiz"
+      "gitHubUrl": "https://github.com/ilham999-byte/Gestion-des-Locations-de-Voitures-et-des-Clients"
   },
   {
       "number": 20,
-      "title": "WorkManager",
-      "developer": "EL MASKYNE Mohamed Amine",
+      "title": "projet 20 :Gestion-des-Formations-et-Inscriptions",
+      "developer": "loubna Fouzi",
       "videoUrl": "/videos/video20.mp4",
-      "githubUrl": "https://github.com/MOHAMED-AMINE11/E-MEDEC.git"
+      "gitHubUrl": "https://github.com/FouziLoubna/Gestion-des-Formations-et-Inscriptions-controle-"
   },
   {
       "number": 21,
-      "title": "Bluetooth",
-      "developer": "ELBAHLOULI Salma",
+      "title": "Projet 21: Système de Gestion des Hébergements et des Clients",
+      "developer": "Grima Fatima zahra",
       "videoUrl": "/videos/video21.mp4",
-      "githubUrl": "https://github.com/salma510/Bluetooth"
+      "gitHubUrl": "https://github.com/fatimazahraGrima/Syst-me-de-Gestion-des-H-bergements-et-des-Clients"
   },
   {
       "number": 22,
-      "title": "Camera API",
-      "developer": "ELHALLA Zineb",
+      "title": "Projet 22: Système de gestion de produits alimentaires et de commandes",
+      "developer": "Hormatallah aya",
       "videoUrl": "/videos/video22.mp4",
-      "githubUrl": "https://github.com/ZinebELHALLA/CamApp"
+      "gitHubUrl": "https://github.com/Ayahormatallah/controle.git"
   },
   {
       "number": 23,
-      "title": "ExoPlayer",
-      "developer": "ELLOUBAB Aya",
+      "title": "Projet 23: Système de Gestion des Invoices et des Paiements",
+      "developer": "Jaid Aya",
       "videoUrl": "/videos/video23.mp4",
-      "githubUrl": "https://github.com/aya-elloubab/ExoPlayer-Android-Application"
+      "gitHubUrl": "https://github.com/Ayajaid/Gestion-des-facures/tree/master"
   },
   {
       "number": 24,
-      "title": "Firebase Cloud Messaging",
-      "developer": "Fattouhi Radwa",
+      "title": "Projet 24: Système de Gestion des Dons et des Donateurs",
+      "developer": "Salma Jalat",
       "videoUrl": "/videos/video24.mp4",
-      "githubUrl": "https://github.com/Radwa-f/FCM_Project.git"
+      "gitHubUrl": "https://github.com/salma-lang/Gestion-des-dons_donateurs-"
   },
   {
       "number": 25,
-      "title": "Jetpack Compose",
-      "developer": "Fihri Yasmine",
+      "title": "Projet 25: Système de Gestion des Ventes et des Produits Électroniques",
+      "developer": "Khouribech imane",
       "videoUrl": "/videos/video25.mp4",
-      "githubUrl": "https://github.com/yasminefhr1/MovieApp_Contole"
+      "gitHubUrl": "https://github.com/khouribechimane/Controle-app-GVP.git"
   },
   {
       "number": 26,
-      "title": "Permissions Runtime",
-      "developer": "HARATI Ayoub",
+      "title": "Projet 26: Système de Gestion des Cours et des Salles de Classe",
+      "developer": "Korachi Abdelghafour",
       "videoUrl": "/videos/video26.mp4",
-      "githubUrl": "https://github.com/ayoub-aav/TPs-CoursMobile/tree/main/permission"
+      "gitHubUrl": "https://github.com/abdokorachi3/CONTROLEJAVAEE1"
   },
   {
       "number": 27,
-      "title": "Gesture Detection",
-      "developer": "Khalil Fatima",
+      "title": "Projet 27:Système de Gestion des Commandes de Fournitures et des Fournisseurs",
+      "developer": "Badr Korichi",
       "videoUrl": "/videos/video27.mp4",
-      "githubUrl": "https://github.com/fatikhalil/projet1.git"
+      "gitHubUrl": "https://github.com/Baadr003/Projet-Controle"
   },
   {
       "number": 28,
-      "title": "Lottie Animations",
-      "developer": "Lahlou Asmae",
+      "title": "projet 28 : Système de Gestion des Projets et des Tâches",
+      "developer": "Nihal Majjad",
       "videoUrl": "/videos/video28.mp4",
-      "githubUrl": "https://github.com/lahlouasmae/FlowerShop"
+      "gitHubUrl": "https://github.com/nihal149/projetcontrol"
   },
   {
       "number": 29,
-      "title": "NFC",
-      "developer": "Lahlyal Ahmed Moubarak",
+      "title": "projet 29::Gestion des suivie des maladies et des patients",
+      "developer": "manariwissal",
       "videoUrl": "/videos/video29.mp4",
-      "githubUrl": "https://github.com/amlmbr/GestionNFC"
+      "gitHubUrl": "https://github.com/manarimanari/gestion-des-patients-et-des-maladies-"
   },
   {
       "number": 30,
-      "title": "Multithreading",
-      "developer": "MAGHNI Manal",
+      "title": "projet 30: Système de Gestion des Formateurs et des Sessions de Formation",
+      "developer": "younes mohidine",
       "videoUrl": "/videos/video30.mp4",
-      "githubUrl": "https://github.com/ManalMaghni/Projet/tree/master"
+      "gitHubUrl": "https://github.com/mhidine02/Control"
   },
   {
       "number": 31,
-      "title": "ConstraintLayout Avancé",
-      "developer": "Mandour Ilyass",
+      "title": "Système de Gestion des Commandes et des Factures",
+      "developer": "Nacri zineb",
       "videoUrl": "/videos/video31.mp4",
-      "githubUrl": "https://github.com/ilyassman/EnsajFood/"
+      "gitHubUrl": "https://github.com/Zinebncr/Controle-gestiondefactureetdecommande.git"
   },
   {
       "number": 32,
-      "title": "Sauvegarde d'États",
-      "developer": "Miskar Amina",
+      "title": "Projet 32 : systeme de gestion des inventaires et des fournisseurs",
+      "developer": "Okayl kaoutar",
       "videoUrl": "/videos/video32.mp4",
-      "githubUrl": "https://github.com/miskaraminaa/NoteAPP_ViewModel.git"
+      "gitHubUrl": "https://github.com/kaoutarokayl/produit-fournisseur-approvision.git"
   },
   {
       "number": 33,
-      "title": "Navigation Component",
-      "developer": "Sabrou hafsa",
+      "title": "Projet33:Système de Gestion des Produits et des Promotions",
+      "developer": "Saad Oumaima",
       "videoUrl": "/videos/video33.mp4",
-      "githubUrl": "https://github.com/Hafsa1sa/CupcakeCorner.git"
+      "gitHubUrl": "https://github.com/oumaimasaad-debug/Controle"
   },
   {
       "number": 34,
-      "title": "Paging Library",
-      "developer": "Sakhr niama",
+      "title": "Projet34: Système de Gestion des Dépenses et des Budgets",
+      "developer": "Salim Wissal",
       "videoUrl": "/videos/video34.mp4",
-      "githubUrl": "https://github.com/niama22/Projet34-mobile.git"
+      "gitHubUrl": "https://github.com/salim-w/applic_control"
   },
   {
       "number": 35,
-      "title": "Tests Unitaires avec JUnit",
-      "developer": "Taghti Zineb",
+      "title": " Projet35: Système de Gestion des Examen et des Résultats",
+      "developer": "Wahbi Sanae",
       "videoUrl": "/videos/video35.mp4",
-      "githubUrl": "https://github.com/zinebtaghti/To_Do_List"
+      "gitHubUrl": "https://github.com/wahbisanae/controle/tree/main"
   },
   {
       "number": 36,
-      "title": "Tests Instrumentés avec Espresso",
-      "developer": "ZAHIR Oumaima",
+      "title": "Projet 36 : Système de Gestion des Recrutements et des Postes",
+      "developer": "Yousfi Mohamed",
       "videoUrl": "/videos/video36.mp4",
-      "githubUrl": "https://github.com/ZahirOuma/MyLibraryApp/tree/master"
+      "gitHubUrl": "https://github.com/MohammedYousfi49/Controle"
   },
   {
       "number": 37,
-      "title": "Services Android",
-      "developer": "ZENNOURI Nassima",
+      "title": "Système de Gestion des Commandes et des Fournisseurs",
+      "developer": "Zaggar Driss",
       "videoUrl": "/videos/video37.mp4",
-      "githubUrl": "https://github.com/NassimaZENNOURI/ProjetMusique"
+      "gitHubUrl": "https://github.com/Zaggardr/control"
   }
 ];
 
