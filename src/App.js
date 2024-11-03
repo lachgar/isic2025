@@ -331,7 +331,7 @@ const VideoGallery = () => {
               <div className="card-body text-center">
                 <h5 className="card-title font-weight-bold">{`Projet ${project.number}: ${project.title}`}</h5>
                 <p className="card-text text-muted">Développé par : { project.developer.toUpperCase()}</p>
-                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">
+                <a href={project.gitHubUrl} target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">
                   Voir sur GitHub
                 </a>
               </div>
